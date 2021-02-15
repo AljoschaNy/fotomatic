@@ -410,6 +410,7 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+  height: 62px;
 }
 
 footer .content {
