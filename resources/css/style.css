@@ -306,6 +306,7 @@ header .mobile {
 #filters-section .content {
   padding: 0 .625rem;
   margin-bottom: 5rem;
+  position: relative;
 }
 
 #filters-section .content h2 {
@@ -324,6 +325,12 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#filter-section .images-container .image-container {
+  flex: 1;
 }
 
 @media only screen and (max-width: 760px) {
